@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2? family= Justo & family= Sarala & display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    border-bottom: 0.4px solid #000000;
+    background: #b22222;
+}
+
+.cabecalho-imagem {
+    height: 100px;
+}
+
+.cabecalho-imagem-user {
+    height: 30px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400px;
+    font-size: 18px;
+}
+
+.cabecalho-menu-item-lista {
+    font-family: 'Sarala', sans-serif;
+    color: #0000FF;
+    font-weight: 200px;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+
+
+
+.rodape {
+    text-align: center;
+    font-family: 'Sarala', sans-serif;
+    padding: 32px;
+    border-top: 0.4px solid #000000;
+    background: #b22222;
+}
+.container {
+
+    margin: 50px;
+    padding: 40px;
+    display: flex;
+    font-size: 15px;
+
+}
+
+.style-input {
+    display: block;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    height: 25px;
+}
+#paragrafo{
+   flex-basis: 25vw;
+}
+#butao{
+    background-color: #b22222;
+    padding: 5px;
+    border-radius: 25px;
+}
